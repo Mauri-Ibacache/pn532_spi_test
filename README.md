@@ -8,7 +8,6 @@ Se obtiene el UID en formato HEX (ej: A3D7F705).
 Envío de asistencia a EMQX
 
 El Arduino publica un JSON con:
-
 {
   "uid": "A3D7F705",
   "mac": "AA:BB:CC:DD:EE:FF",
@@ -16,8 +15,6 @@ El Arduino publica un JSON con:
   "hora": "14:22:18",
   "epoch": 1731500000
 }
-
-
 Se envía al tópico:
 
 pandaCheck/prod/asistencia
